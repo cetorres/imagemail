@@ -1,0 +1,59 @@
+body, td 
+{
+	font-family: Verdana;
+	font-size: 11px;
+}
+
+div 
+{
+	background-color: #fff;
+}
+
+h1 
+{
+	border-bottom: 1px solid #ccc;	
+}
+
+#google_ad
+{
+	float: right; 
+	position: absolute; 
+	left:730px;
+	top: 60px;
+        height: 300px;
+}
+
+#footer
+{
+	border-top: 1px solid #ccc;
+	margin-top: 50px;
+	font-size: 9px;
+}
+
+#bg_color_div:hover, #text_color_div:hover 
+{
+	cursor: pointer;
+}
+
+#ttiw_color_dropdown, #ttiw_table_dropdown 
+{
+        border: 1px solid #444;
+        border-top-color: #999;
+        border-left-color: #999;
+        background-color: #eee;
+}
+
+#ttiw_color_dropdown a, #ttiw_table_dropdown a 
+{
+        display: block;
+        margin: 1px;
+        width: 16px;
+        height: 16px;
+        float: left;
+        font-size: 1pt;
+        border: 1px solid transparent;
+}
+
+#ttiw_table_dropdown a { border: 1px solid #ccc; }
+#ttiw_table_dropdown a.shaded { background-color: #bbb; border: 1px solid #777; }
+#ttiw_color_dropdown a:hover { border-color: #000; cursor: pointer; }	
